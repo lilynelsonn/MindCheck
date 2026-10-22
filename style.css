@@ -1,0 +1,145 @@
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f5f3ef;
+color: #222;
+}
+
+.welcome-screen {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+}
+
+.welcome-content {
+max-width: 650px;
+text-align: center;
+}
+
+.logo {
+font-size: 22px;
+font-weight: bold;
+margin-bottom: 80px;
+}
+
+.eyebrow {
+font-size: 13px;
+text-transform: uppercase;
+letter-spacing: 2px;
+color: #6b6b6b;
+margin-bottom: 15px;
+}
+
+h1 {
+font-size: 55px;
+line-height: 1.1;
+margin: 0 0 25px;
+}
+
+.intro {
+font-size: 18px;
+line-height: 1.6;
+color: #666;
+margin-bottom: 35px;
+}
+
+button {
+background-color: #5d6bff;
+color: white;
+border: none;
+padding: 16px 30px;
+border-radius: 12px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+
+button {
+background-color: #4653d9;
+}
+
+.disclaimer {
+font-size: 12px;
+color: #888;
+margin-top: 25px;
+}
+
+.answer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 30px 0;
+}
+
+.answer-button {
+    width: 100%;
+    background-color: white;
+    color: #333;
+    border: 2px solid #e4e0f0;
+    padding: 16px;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.answer-button:hover {
+    background-color: #eeecff;
+    border-color: #5d6bff;
+}
+
+.progress-track {
+    width: 100%;
+    height: 8px;
+    background-color: #e5e1ed;
+    border-radius: 10px;
+    margin: 25px 0;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background-color: #5d6bff;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.reflection-answers {
+    text-align: left;
+    margin: 25px 0;
+}
+
+.reflection-answers p {
+    line-height: 1.5;
+}
+
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 15px 0 25px;
+    border: 1px solid #d8d3e5;
+    border-radius: 12px;
+    font: inherit;
+    resize: vertical;
+}
+
+button {
+    transition: background-color 0.2s ease;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .welcome-screen {
+        padding: 20px;
+    }
+
+    .logo {
+        margin-bottom: 45px;
+    }
+}
